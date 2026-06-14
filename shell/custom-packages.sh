@@ -9,13 +9,13 @@
 # 新增Run安装器 用于快速安装makeself打包的run文件
 CUSTOM_PACKAGES="$CUSTOM_PACKAGES luci-app-run"
 # 首页和网络向导
-CUSTOM_PACKAGES="$CUSTOM_PACKAGES luci-i18n-quickstart-zh-cn"
+#CUSTOM_PACKAGES="$CUSTOM_PACKAGES luci-i18n-quickstart-zh-cn"
 # 新增非常好用的文件管理器 sbwml/luci-app-quickfile （luci 23版本不支持 勿集成）
 CUSTOM_PACKAGES="$CUSTOM_PACKAGES bash quickfile luci-app-quickfile luci-i18n-quickfile-zh-cn"
 # 高级卸载 by YT Vedio Talk
 CUSTOM_PACKAGES="$CUSTOM_PACKAGES luci-app-uninstall"
 # 极光主题 by github eamonxg
-CUSTOM_PACKAGES="$CUSTOM_PACKAGES luci-theme-aurora luci-app-aurora-config luci-i18n-aurora-config-zh-cn"
+#CUSTOM_PACKAGES="$CUSTOM_PACKAGES luci-theme-aurora luci-app-aurora-config luci-i18n-aurora-config-zh-cn"
 # 去广告adghome
 CUSTOM_PACKAGES="$CUSTOM_PACKAGES luci-app-adguardhome"
 # 代理相关
@@ -34,10 +34,10 @@ CUSTOM_PACKAGES="$CUSTOM_PACKAGES luci-i18n-nikki-zh-cn"
 CUSTOM_PACKAGES="$CUSTOM_PACKAGES luci-app-nekobox"
 CUSTOM_PACKAGES="$CUSTOM_PACKAGES momo luci-app-momo luci-i18n-momo-zh-cn"
 # 新增 clashoo
-CUSTOM_PACKAGES="$CUSTOM_PACKAGES clashoo luci-app-clashoo luci-i18n-clashoo-zh-cn"
+#CUSTOM_PACKAGES="$CUSTOM_PACKAGES clashoo luci-app-clashoo luci-i18n-clashoo-zh-cn"
 # VPN
-CUSTOM_PACKAGES="$CUSTOM_PACKAGES luci-proto-wireguard"
-CUSTOM_PACKAGES="$CUSTOM_PACKAGES luci-app-tailscale-community luci-i18n-tailscale-community-zh-cn"
+#CUSTOM_PACKAGES="$CUSTOM_PACKAGES luci-proto-wireguard"
+#CUSTOM_PACKAGES="$CUSTOM_PACKAGES luci-app-tailscale-community luci-i18n-tailscale-community-zh-cn"
 # 分区扩容 by sirpdboy 
 CUSTOM_PACKAGES="$CUSTOM_PACKAGES luci-app-partexp luci-i18n-partexp-zh-cn"
 # 看门狗watchdog by sirpdboy
@@ -47,25 +47,25 @@ CUSTOM_PACKAGES="$CUSTOM_PACKAGES luci-app-watchdog luci-i18n-watchdog-zh-cn"
 # 进阶设置 by sirpdboy 
 # 当luci-app-advancedplus插件开启时 需排除冲突项 luci-app-argon-config和luci-i18n-argon-config-zh-cn 减号代表排除
 # 若要集成此插件请注意相关issue:https://github.com/wukongdaily/ImmortalWrt-ImageBuilder/issues/521
-CUSTOM_PACKAGES="$CUSTOM_PACKAGES luci-app-advancedplus luci-i18n-advancedplus-zh-cn -luci-app-argon-config -luci-i18n-argon-config-zh-cn"
+#CUSTOM_PACKAGES="$CUSTOM_PACKAGES luci-app-advancedplus luci-i18n-advancedplus-zh-cn -luci-app-argon-config -luci-i18n-argon-config-zh-cn"
 # MosDNS
-CUSTOM_PACKAGES="$CUSTOM_PACKAGES luci-app-mosdns luci-i18n-mosdns-zh-cn"
+#CUSTOM_PACKAGES="$CUSTOM_PACKAGES luci-app-mosdns luci-i18n-mosdns-zh-cn"
 # Turbo ACC 网络加速
 CUSTOM_PACKAGES="$CUSTOM_PACKAGES luci-app-turboacc"
 # 应用过滤 openappfilter.com
-CUSTOM_PACKAGES="$CUSTOM_PACKAGES luci-app-appfilter luci-i18n-appfilter-zh-cn"
+#CUSTOM_PACKAGES="$CUSTOM_PACKAGES luci-app-appfilter luci-i18n-appfilter-zh-cn"
 # Lucky大吉 
-CUSTOM_PACKAGES="$CUSTOM_PACKAGES luci-app-lucky lucky"
+#CUSTOM_PACKAGES="$CUSTOM_PACKAGES luci-app-lucky lucky"
 # 集客AC
-CUSTOM_PACKAGES="$CUSTOM_PACKAGES luci-app-gecoosac gecoosac"
+#CUSTOM_PACKAGES="$CUSTOM_PACKAGES luci-app-gecoosac gecoosac"
 # 任务设置
 CUSTOM_PACKAGES="$CUSTOM_PACKAGES luci-app-taskplan luci-i18n-taskplan-zh-cn"
 # Easytier
-CUSTOM_PACKAGES="$CUSTOM_PACKAGES easytier luci-app-easytier"
+#CUSTOM_PACKAGES="$CUSTOM_PACKAGES easytier luci-app-easytier"
 # 统一文件共享
 CUSTOM_PACKAGES="$CUSTOM_PACKAGES webdav2 luci-app-unishare"
 # IPSec VPN 服务器
-CUSTOM_PACKAGES="$CUSTOM_PACKAGES luci-i18n-ipsec-vpnd-zh-cn"
+#CUSTOM_PACKAGES="$CUSTOM_PACKAGES luci-i18n-ipsec-vpnd-zh-cn"
 # Bandix流量监控 by timsaya
 CUSTOM_PACKAGES="$CUSTOM_PACKAGES luci-app-bandix luci-i18n-bandix-zh-cn"
 # IPTV 流媒体转发服务器 - rtp2httpd by stackia
